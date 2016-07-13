@@ -180,8 +180,8 @@ endif
 
 ifndef TESLA_BUILD_TYPE
     TESLA_BUILD_TYPE := Unofficial
-    TESLA_POSTFIX := -$(shell date +"%Y%m%d-%H%M")
 endif
+    TESLA_POSTFIX := -$(shell date +"%Y%m%d-%H%M")
 
 # Set all versions
 TESLA_VERSION := Tesla-$(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR).$(PRODUCT_VERSION_MAINTENANCE)-$(TESLA_BUILD_TYPE)$(TESLA_POSTFIX)
