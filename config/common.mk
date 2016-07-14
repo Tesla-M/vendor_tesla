@@ -188,7 +188,7 @@ endif
 # Versioning System
 # Tesla first version.
 PRODUCT_VERSION_MAJOR = 6.0.1
-PRODUCT_VERSION_MINOR = RC.1
+PRODUCT_VERSION_MINOR = OMS
 PRODUCT_VERSION_MAINTENANCE = v2.2
 TESLA_POSTFIX := -$(shell date +"%Y%m%d")
 
