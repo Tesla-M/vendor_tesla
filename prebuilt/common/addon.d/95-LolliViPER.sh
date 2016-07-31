@@ -10,7 +10,6 @@
 list_files() {
 cat <<EOF
 priv-app/ViPER4Android_FX_A4.x/ViPER4Android_FX_A4.x.apk
-su.d/50viper.sh
 EOF
 }
 
@@ -44,7 +43,5 @@ case "$1" in
   ;;
   post-restore)
     # Stub
-	# audio_policy.conf edits for V4A compatibility
-sed -i '/deep_buffer {/,/}/s/^/#/' /system/etc/audio_policy.conf
   ;;
 esac
