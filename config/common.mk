@@ -184,7 +184,7 @@ endif
 PRODUCT_VERSION_MAJOR = 6.0.1
 PRODUCT_VERSION_MINOR = OMS
 PRODUCT_VERSION_MAINTENANCE = v2.3
-TESLA_POSTFIX := -$(shell date +"%Y%m%d")
+TESLA_POSTFIX := -$(shell date +"%Y%m%d-%H%M")
 
 ifndef TESLA_BUILD_TYPE
     TESLA_BUILD_TYPE := Unofficial
